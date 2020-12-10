@@ -13,7 +13,11 @@ let L0 = function() {
   // What is the Space Complexity of your solution? :
   //
   this.generateRange1 = () => {
-    // Your code here...
+    const result = [];
+    for(let i = -100; i <= 72; i++) {
+      result.push(i);
+    }
+    return result;
   };
 
 
